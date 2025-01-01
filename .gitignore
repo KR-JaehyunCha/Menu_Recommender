@@ -1,0 +1,54 @@
+# 🛑 가상 환경 폴더 제외
+venv/
+
+# 🛑 환경 변수 파일 (API 키, 비밀번호 등)
+.env
+
+# 🛑 데이터셋 (원본 데이터)
+data/raw/
+
+# 🛑 Python 캐시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# 🛑 Jupyter Notebook 체크포인트 파일
+.ipynb_checkpoints/
+
+# 🛑 로그 파일 및 임시 파일
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 🛑 macOS에서 생기는 시스템 파일
+.DS_Store
+
+# 🛑 Visual Studio Code 설정 파일 (선택 사항)
+.vscode/
+
+# 🛑 test 환경 결과물
+tests/__pycache__/
+
+# 🛑 빌드 파일
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+
+# 🛑 결과 데이터 (전처리 이후 데이터만 관리)
+data/processed/
+
+# 🛑 model 파일 (훈련된 모델 파일)
+models/
+*.h5
+*.pkl
+*.joblib
+
+# 🛑 requirements.txt 재생성용 (불필요한 파일)
+pip-log.txt
+pip-delete-this-directory.txt
